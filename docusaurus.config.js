@@ -70,6 +70,11 @@ const config = {
 						position: "right",
 					},
 					{
+						href: "https://boris.foo/",
+						label: "Website",
+						position: "right",
+					},
+					{
 						href: "https://github.com/borisnliscool/",
 						label: "GitHub",
 						position: "right",
