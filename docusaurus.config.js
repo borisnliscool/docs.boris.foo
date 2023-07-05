@@ -43,7 +43,7 @@ const config = {
 					sidebarPath: require.resolve("./sidebars.js"),
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
-					editUrl: "https://github.com/borisnliscool/docs.boris.foo",
+					editUrl: "https://github.com/borisnliscool/docs.boris.foo/tree/main/",
 				},
 				theme: {
 					customCss: require.resolve("./src/css/custom.css"),
