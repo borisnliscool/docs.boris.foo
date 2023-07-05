@@ -44,7 +44,9 @@ const config = {
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
 					editUrl: "https://github.com/borisnliscool/docs.boris.foo/tree/main/",
+					routeBasePath: "/",
 				},
+				blog: false,
 				theme: {
 					customCss: require.resolve("./src/css/custom.css"),
 				},
@@ -105,8 +107,8 @@ const config = {
 				darkTheme: darkCodeTheme,
 			},
 			colorMode: {
-                defaultMode: "dark",
-                respectPrefersColorScheme: true
+				defaultMode: "dark",
+				respectPrefersColorScheme: true,
 			},
 		}),
 };
