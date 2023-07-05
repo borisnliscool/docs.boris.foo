@@ -105,6 +105,7 @@ const config = {
 				darkTheme: darkCodeTheme,
 			},
 			colorMode: {
+                defaultMode: "dark",
                 respectPrefersColorScheme: true
 			},
 		}),
