@@ -106,7 +106,7 @@ const config = {
 				// Public API key: it is safe to commit it
 				apiKey: "9f29efe7f566fe8905bc81bcadd619c4",
 
-				indexName: "YOUR_INDEX_NAME",
+				indexName: "boris",
 
 				// Optional: see doc section below
 				contextualSearch: true,
