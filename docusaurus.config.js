@@ -100,7 +100,6 @@ const config = {
 				copyright: `Copyright © ${new Date().getFullYear()} BNL Docs, boris.foo`,
 			},
 			prism: {
-				theme: require("prism-react-renderer/themes/vsdark"),
                 additionalLanguages: ["lua"]
 			},
 			colorMode: {
