@@ -54,7 +54,12 @@ const config = {
 	themeConfig:
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
-			// Replace with your project's social card
+			algolia: {
+                apiKey: "9f29efe7f566fe8905bc81bcadd619c4",
+				indexName: "boris",
+                contextualSearch: true,
+				appId: "GNRFL6FJZD",
+			},
 			image: "img/social-card.png",
 			navbar: {
 				title: "Documentation",
@@ -98,11 +103,6 @@ const config = {
 					},
 				],
 				copyright: `Copyright © ${new Date().getFullYear()} BNL Docs, boris.foo`,
-			},
-			algolia: {
-				appId: "GNRFL6FJZD",
-				apiKey: "9f29efe7f566fe8905bc81bcadd619c4",
-				indexName: "boris",
 			},
 			prism: {
 				additionalLanguages: ["lua"],
