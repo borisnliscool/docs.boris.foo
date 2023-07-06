@@ -18,3 +18,14 @@ end)
 - source: `number`
 - propertyId: `number`
 - vehicle: `boolean | number`
+
+### Client
+
+```lua
+AddEventHandler("bnl-housing:on:leaveProperty", function(propertyId, vehicle)
+    print(("left property %s %s"):format(propertyId, vehicle and "in a vehicle" or "on foot"))
+end)
+```
+
+- propertyId: `number`
+- vehicle: `boolean | number`
