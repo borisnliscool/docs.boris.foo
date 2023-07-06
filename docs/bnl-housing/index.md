@@ -1,6 +1,5 @@
 # bnl-housing
 
-
 <div style={{ display: "flex", gap: ".5rem", marginBottom: "1rem" }}>
     <a href="https://github.com/borisnliscool/bnl-housing">
         <button class="button button--outline button--primary">GitHub</button>
