@@ -17,4 +17,4 @@ end)
 
 - source: `number`
 - propertyId: `number`
-- propertyId: `boolean | number`
+- vehicle: `boolean | number`
