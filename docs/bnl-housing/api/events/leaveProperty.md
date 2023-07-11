@@ -1,4 +1,5 @@
 ---
+sidebar_position: 2
 title: leaveProperty
 description: Event that gets triggered when a player leaves a property.
 ---

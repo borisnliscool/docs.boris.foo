@@ -1,4 +1,5 @@
 ---
+sidebar_position: 1
 title: enterProperty
 description: Event that gets triggered when a player enters a property.
 ---
