@@ -1,0 +1,1 @@
+`house` | `warehouse` | `office` | `garage`

@@ -1,0 +1,3 @@
+- zipcode: `string`
+- streetName: `string`
+- buildingNumber: `string`
