@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 title: startPropEditorWithModel
 description: Start the prop editor with a specified prop.
 ---
