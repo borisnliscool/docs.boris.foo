@@ -1,3 +1,7 @@
+---
+description: All data for a property
+---
+
 - id: `integer`
 - entranceLocation: `vector4`
 - location: `vector3`
