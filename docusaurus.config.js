@@ -27,7 +27,7 @@ const config = {
 	scripts: [
 		{
 			src: "https://analytics.boris.foo/script.js",
-			"data-website-id": "9416d243-64b5-4bc4-a476-1cdfd44fffe0",
+			"data-website-id": "f76d0915-f554-4a64-8a3e-94afc7b53828",
 		},
 	],
 
@@ -55,9 +55,9 @@ const config = {
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
 			algolia: {
-                apiKey: "9f29efe7f566fe8905bc81bcadd619c4",
+				apiKey: "9f29efe7f566fe8905bc81bcadd619c4",
 				indexName: "boris",
-                contextualSearch: true,
+				contextualSearch: true,
 				appId: "GNRFL6FJZD",
 			},
 			image: "img/social-card.png",
