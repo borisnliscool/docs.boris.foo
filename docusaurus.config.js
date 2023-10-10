@@ -57,7 +57,7 @@ const config = {
 			algolia: {
 				apiKey: "9f29efe7f566fe8905bc81bcadd619c4",
 				indexName: "boris",
-				contextualSearch: true,
+				contextualSearch: false,
 				appId: "GNRFL6FJZD",
 			},
 			image: "img/social-card.png",
