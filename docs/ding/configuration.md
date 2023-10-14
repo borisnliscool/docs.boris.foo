@@ -38,6 +38,16 @@ setr ding:warnUnused true
 
 In this example, setting ding:warnUnused to true will enable error warnings for incorrect usage of Ding events in server scripts.
 
+### whitelistedEvents
+
+This convar controls which events Ding should ignore and not overwrite.
+
+#### Example:
+
+```bash
+setr ding:whitelistedEvents ["resource:event"]
+```
+
 ### DING_READY
 
 Ding also exposes a `DING_READY` boolean on the client side, so other scripts can check if Ding is ready to be used.
