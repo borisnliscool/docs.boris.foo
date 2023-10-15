@@ -11,7 +11,7 @@ Event that gets triggered when a player leaves a property.
 ### Server
 
 ```lua
-AddEventHandler("bnl-housing:on:leaveProperty", function(source, propertyId, vehicle)
+RegisterNetEvent("bnl-housing:on:leaveProperty", function(source, propertyId, vehicle)
     print(("player %s left property %s %s"):format(source, propertyId, vehicle and "in a vehicle" or "on foot"))
 end)
 ```
@@ -23,7 +23,7 @@ end)
 ### Client
 
 ```lua
-AddEventHandler("bnl-housing:on:leaveProperty", function(propertyId, vehicle)
+RegisterNetEvent("bnl-housing:on:leaveProperty", function(propertyId, vehicle)
     print(("left property %s %s"):format(propertyId, vehicle and "in a vehicle" or "on foot"))
 end)
 ```

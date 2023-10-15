@@ -11,7 +11,7 @@ Event that gets triggerd when the UI gets hidden. Use this event to show your se
 ### Client
 
 ```lua
-AddEventHandler("bnl-housing:on:hideUI", function()
+RegisterNetEvent("bnl-housing:on:hideUI", function()
     print("ui was hidden, showing custom ui")
 end)
 ```

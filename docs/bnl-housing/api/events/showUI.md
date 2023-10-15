@@ -11,7 +11,7 @@ Event that gets triggerd when a new UI page opens. Use this event to hide your s
 ### Client
 
 ```lua
-AddEventHandler("bnl-housing:on:showUI", function(page)
+RegisterNetEvent("bnl-housing:on:showUI", function(page)
     print(("showing ui page %s, hiding custom ui"):format(page))
 end)
 ```
