@@ -14,7 +14,8 @@ This convar specifies which exports should be triggered when an invalid nonce is
 {
     source = 1,
     event = "testevent",
-    clientNonce = "anything"
+    clientNonce = "anything",
+    invoker = "some-resource",
 }
 ```
 
