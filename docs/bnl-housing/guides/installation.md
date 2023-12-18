@@ -14,4 +14,4 @@ Installing bnl-housing should be pretty easy. There's a couple of steps:
 3. Ensuring database structure
    - Find the bnl-housing.sql file in the resource folder and run it in your database.
 
-That's it, bnl-housing should now be installed but you're not done yet! Please read the [configuration guide](configuration) next.
+That's it, bnl-housing should now be installed but you're not done yet! Please read the [configuration guide](/bnl-housing/guides/configuration) next.
