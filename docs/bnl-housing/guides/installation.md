@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: Information about correctly installing bnl-housing
 ---
 
 # Installation
