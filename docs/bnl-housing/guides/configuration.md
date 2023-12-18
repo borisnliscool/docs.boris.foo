@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+description: Information about configuring different parts of bnl-housing
 ---
 
 # Configuration
