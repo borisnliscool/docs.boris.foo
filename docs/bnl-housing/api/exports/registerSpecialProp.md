@@ -46,13 +46,13 @@ exports["bnl-housing"]:registerSpecialProp(options)
       - shader?: [`number`](https://docs.fivem.net/natives/?_0x5261A01A)
   - handlers?:
     - client?:
-      - interact?: `string` | `string[]` | `function`
-      - spawn?: `string` | `string[]` | `function`
-      - destroy?: `string` | `string[]` | `function`
+      - interact?: `string` | `string[]`
+      - spawn?: `string` | `string[]`
+      - destroy?: `string` | `string[]`
     - server?:
-      - interact?: `string` | `string[]` | `function`
-      - spawn?: `string` | `string[]` | `function`
-      - destroy?: `string` | `string[]` | `function`
+      - interact?: `string` | `string[]`
+      - spawn?: `string` | `string[]`
+      - destroy?: `string` | `string[]`
 
 ### Examples
 
