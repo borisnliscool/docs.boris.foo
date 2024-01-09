@@ -17,7 +17,6 @@ exports["bnl-housing"]:registerSpecialProp(options)
 - options: `table`
   - model: `string`
   - interact?:
-    - interactMode `"keypress" | "target"`
     - range: `number`
     - helpText?: `string`
     - keybind?:
@@ -63,7 +62,6 @@ exports["bnl-housing"]:registerSpecialProp({
     model = 'prop_generator_01a',
 
     interact = {
-        interactMode = "target",
         range = 2.0,
 
         target = {
@@ -114,7 +112,6 @@ exports["bnl-housing"]:registerSpecialProp({
     model = 'prop_generator_01a',
 
     interact = {
-        interactMode = "keypress",
         range = 2.0,
         helpText = "~INPUT_PICKUP~ Open generator",
 
