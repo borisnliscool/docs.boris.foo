@@ -16,7 +16,7 @@ Config.framework = "auto"
 ### Interact Mode
 
 ```lua
-Config.interactMode = "keypress" --
+Config.interactMode = "keypress"
 ```
 
 Determins how menus open. Either "**keypress**" or "**walk**".
